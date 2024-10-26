@@ -1,7 +1,7 @@
 version: '3.1'
 services:
     backend:
-        image: 'kansimp/koi_farm:latest'
+        image: 'kansimp/koi_store:latest'
         restart: unless-stopped
         environment:
             - DB_URL=mongodb+srv://root:123@cluster0.wgyusjf.mongodb.net/pethome?retryWrites=true&w=majority&appName=Cluster0
